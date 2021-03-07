@@ -11,6 +11,6 @@ Blog implementado com React para estudo e tem como referência o post [Learn Rea
 
 Para executar a aplicação execute o seguinte comando na raiz do projeto
 
-```
+```console
 $ npm run start
 ```
