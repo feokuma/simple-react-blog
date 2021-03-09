@@ -1,1 +1,3 @@
-export { default as CreateNewPost } from "./CreateNewPost";
+import CreateNewPost from './CreateNewPost';
+
+export default CreateNewPost;

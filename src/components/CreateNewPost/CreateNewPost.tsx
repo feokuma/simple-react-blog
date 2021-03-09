@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 function CreateNewPost() {
   return (
@@ -6,12 +6,13 @@ function CreateNewPost() {
       <form>
         <h1>Create New Post</h1>
         <input type="text" placeholder="Title" required />
+        <p>test</p>
         <br />
         <br />
-        <textarea placeholder="Contents" cols={41} rows={8} required></textarea>
+        <textarea placeholder="Contents" cols={41} rows={8} required />
         <br />
         <br />
-        <button>Save Post</button>
+        <button type="submit">Save Post</button>
       </form>
     </div>
   );

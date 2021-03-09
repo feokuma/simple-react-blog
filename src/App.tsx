@@ -1,6 +1,6 @@
-import React from "react";
-import "./App.css";
-import { CreateNewPost } from "./components/CreateNewPost";
+import React from 'react';
+import './App.css';
+import CreateNewPost from './components/CreateNewPost';
 
 function App() {
   return (
