@@ -5,8 +5,7 @@ function CreateNewPost() {
     <div>
       <form>
         <h1>Create New Post</h1>
-        <input type="text" placeholder="Title" required />
-        <p>test</p>
+        <input type="text" placeholder="Title" size={39} required />
         <br />
         <br />
         <textarea placeholder="Contents" cols={41} rows={8} required />
