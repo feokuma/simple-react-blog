@@ -1,8 +1,9 @@
-import { render } from '@testing-library/react';
+import React from 'react';
+import renderer from 'react-test-renderer';
 import CreateNewPost from './CreateNewPost';
 
-test('Should render component', () => {
-  const component = render(<CreateNewPost />);
+test('Should render correctly', () => {
+  const tree = renderer.create(<CreateNewPost />).toJSON();
 
-  expect(component).not.toBeNull();
+  expect(tree).toMatchSnapshot();
 });

@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render correctly 1`] = `
+<div>
+  <form>
+    <h1>
+      Create New Post
+    </h1>
+    <input
+      placeholder="Title"
+      required={true}
+      size={39}
+      type="text"
+    />
+    <br />
+    <br />
+    <textarea
+      cols={41}
+      placeholder="Contents"
+      required={true}
+      rows={8}
+    />
+    <br />
+    <br />
+    <button
+      type="submit"
+    >
+      Save Post
+    </button>
+  </form>
+</div>
+`;
