@@ -17,3 +17,15 @@ Para executar a aplicação execute o seguinte comando na raiz do projeto
 ```console
 $ npm run start
 ```
+
+## Executando os teste automatizados
+
+Para executar os testes automatizados utilize o seguinte comando
+
+```console
+$ npm run test
+```
+
+Será apresentada uma lista de opções para execução dos testes. Pressione a tecla `a` para executar todos os testes do projeto.
+
+Para sair do menu de testes pressione a tecla `q`
